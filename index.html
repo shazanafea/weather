@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>waether</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg  navbar-default">
+        <div class="container ">
+            <a class="navbar-brand " href="#"> <img src="images/logo.png" class="w-5 m-2"></a>
+          <a class="navbar-brand fs-6 text-center" href="#">weather <p class="nav-p">tagline goes here</p>
+          </a>
+        
+          <div class="collapse navbar-collapse text-white" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 p-4 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link px-3 py-0 home "  href="#">Home</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link px-3 py-0 " href="#">news</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3 py-0" href="#">live camera</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3 py-0" href="#">photos </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3 py-0" href="#">contact</a>
+              </li> 
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="main">
+        <div class="main-img ">
+        <div class="container">
+
+                <form  class="find-location text-center">
+                    <input type="text" placeholder="Find your location..." id="search">
+                    <input type="button" value="Find" id="submit">
+                </form>
+
+                <div class="forecast-table">
+                    <div class="forecast-container">
+
+                      <div class="card-group "  id="forecast"> 
+                            <div class="card " id="today">
+                              <div class="card-footer ">
+                                <small class="">Monday</small>
+                                <small class="">15 december</small>
+                              </div>
+                              <div class="card-body">
+                                  <h5 class="card-title" style="color: var(--grey);">Cairo</h5>
+                                  <div class="temp text-white" style="font-size: 100px; font-weight: 500;">14.1<sup>o</sup>C</div>
+                                  <img src="./images/113 (1).png" alt="">
+                                  <div class="word mb-3" style="color: var(--blue);">clear</div>
+                                  <div class="default d-flex">
+                                      <img src="./images/icon-umberella.png" alt="" width="20px" height="20px">
+                                      <p class="ms-1 me-4" style="color: var(--grey);">20%</p>
+                                      <img src="./images/icon-wind.png" alt="" width="20px" height="20px">
+                                      <p class="ms-1 me-4" style="color: var(--grey);">18Km/h</p>
+                                      <img src="./images/icon-compass.png" alt="" width="20px" height="20px">
+                                      <p class="ms-1 me-4" style="color: var(--grey);">East</p>
+                                  </div>
+                              </div>
+                          </div>
+
+                        <div class="card card-2 text-white text-center ">
+                          <div class="card-footer card-foot">
+                            <small class="">Monday</small>
+                          </div>
+                          <div class="card-body">
+                           
+                            <h5 class="card-title text-center px-2 py-3">   <img src="./images/icon-umberella.png" alt="" width="20px" height="20px">
+                            </h5>
+                            <div class="card-text text-center">
+                              <p class="m-4">22.40c <br> <span class="span-card">11.7o</span></p>
+                            
+                              <p class="text-info">sunny</p>
+                            </div>
+                          </div>
+                          
+                        </div>
+                        <div class="card text-white text-center ">
+                          <div class="card-footer">
+                            <small class="">Monday</small>
+                          </div>
+                          <div class="card-body">
+                           
+                            <h5 class="card-title text-center px-2 py-3">                                      <img src="./images/icon-umberella.png" alt="" width="20px" height="20px">
+                            </h5> 
+    
+                            <div class="card-text text-center">
+                              <p class="m-4">22.40c <br> <span class="span-card">11.7o</span></p>
+                            
+                              <p class="text-info">sunny</p>
+                            </div>
+                          </div>
+                          
+                        </div>
+
+                        
+                      </div> 
+                    
+                    </div>
+                </div>
+        </div>
+        </div>
+      </div>
+
+      
+			<footer class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8">
+							<form action="#" class="subscribe-form">
+								<input type="text" placeholder="Enter your email to subscribe...">
+								<input type="submit" value="Subscribe">
+							</form>
+						</div>
+						<div class="col-md-3 col-md-offset-1">
+							<div class="social-links">
+								<a href="#"><i class="fa-brands fa-facebook"></i></a>
+								<a href="#"><i class="fa-brands fa-twitter"></i></a>
+								<a href="#"><i class="fa-brands fa-google-plus"></i></a>
+								<a href="#"><i class="fa-brands fa-pinterest"></i></a>
+							</div>
+						</div>
+					</div>
+
+					<p class="foot-p">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+				</div>
+			</footer> 
+  
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
